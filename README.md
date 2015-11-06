@@ -1,2 +1,1 @@
-# Feanor-Silmaril.github.io
-An info-graphic on the six battles of Beleriand as presented in a responsive website. 
+An infographic of the Six Battles of Beleriand that transpired in The Silmarillion presented through a website. 
