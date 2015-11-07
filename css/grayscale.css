@@ -69,6 +69,8 @@ a:focus {
 
 .intro-text{
     color:#000000;
+    font-weight:500;
+    
 }
 .navbar-custom {
     margin-bottom: 0;
