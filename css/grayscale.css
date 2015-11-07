@@ -130,6 +130,7 @@ a:focus {
 
 @media(min-width:768px) {
     .navbar-custom {
+        color:#000;
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
@@ -143,6 +144,7 @@ a:focus {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
+        color:#fff;
     }
 }
 
@@ -173,7 +175,7 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
     color:#000000;
-    font-weight:600;
+    font-weight:500;
 }
 
 @media(min-width:768px) {
