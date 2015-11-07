@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'elvish';
-    src: url('fonts/tngani.ttf');
+    src: url('fonts/tngani.ttf') format('truetype');
 }
 
 body {
@@ -69,7 +69,7 @@ a:focus {
 }
 
 .elvish {
-    font-family:elvish;
+    font-family:'elvish';
 }
 
 .light {
