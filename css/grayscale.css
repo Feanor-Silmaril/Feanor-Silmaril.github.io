@@ -27,6 +27,7 @@ h3,
 h4,
 h5,
 h6 {
+    top:0;
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -67,7 +68,7 @@ a:focus {
 }
 
 .intro-text{
-    color:#b6bfc8;
+    color:#000000;
 }
 .navbar-custom {
     margin-bottom: 0;
@@ -196,10 +197,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #b6bfc8;
+    color: #000000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -209,8 +210,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #b6bfc8;
-    background: rgba(255,255,255,.1);
+    color: #000000;
+    background: rgba(0,0,0,.1);
 }
 
 .btn-circle i.animated {
