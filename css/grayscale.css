@@ -323,24 +323,28 @@ a:focus {
     background-color: #42dca3;
 }
 
-ul.banner-social-buttons {
+ul.citation {
     margin-top: 0;
 }
 
+ul.citation li{
+    text-align: left;
+}
+
 @media(max-width:1199px) {
-    ul.banner-social-buttons {
+    ul.citation {
         margin-top: 15px;
     }
 }
 
 @media(max-width:767px) {
-    ul.banner-social-buttons li {
+    ul.citation li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    ul.banner-social-buttons li:last-child {
+    ul.citation li:last-child {
         margin-bottom: 0;
     }
 }
