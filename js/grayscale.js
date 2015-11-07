@@ -17,10 +17,18 @@ $(window).scroll(function() {
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
+        if($anchor.attr('href').localeCompare('#page-top') === 0){
+             $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top +150
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+        }
+        else{
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top +150
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
+        }
     });
 });
 
