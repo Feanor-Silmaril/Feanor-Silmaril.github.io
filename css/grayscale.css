@@ -5,11 +5,20 @@
  */
 
 @font-face {
-    font-family: Elvish;
+    font-family: Tengwar Annatar;
     src: url("tengwar-annatar.eot");
     src: url("tengwar-annatar.eot"),
          url("tengwar-annatar.woff") format('woff'),
          url("tengwar-annatar.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tengwar.annatar.rendered {
+    font-family: Tengwar Annatar;
+    font-size: 30px !important;
+    line-height: 240%;
+    padding: 1em;
 }
 
 body {
@@ -69,13 +78,6 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #1d9b6c;
-}
-
-.elvish {
-    font-family: Elvish;
-    font-size: 30px !important;
-    line-height: 240%;
-    padding: 1em;
 }
 
 .light {
