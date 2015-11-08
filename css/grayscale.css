@@ -6,7 +6,10 @@
 
 @font-face {
     font-family: 'elvish';
-    src: url('fonts/tngani.ttf') format('truetype');
+    src: url("tengwar-annatar.eot");
+    src: url("tengwar-annatar.eot"),
+         url("tengwar-annatar.woff") format('woff'),
+         url("tengwar-annatar.ttf") format('truetype');
 }
 
 body {
