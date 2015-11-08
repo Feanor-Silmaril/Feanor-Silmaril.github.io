@@ -8,8 +8,8 @@
     font-family: Tengwar Annatar;
     src: url("fonts/tengwar-annatar.eot");
     src: url("fonts/tengwar-annatar.eot"),
-         url("fonts/tengwar-annatar.woff") format('woff'),
-         url("fonts/tengwar-annatar.ttf") format('truetype');
+         url("../fonts/tengwar-annatar.woff") format('woff'),
+         url("../fonts/tengwar-annatar.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
