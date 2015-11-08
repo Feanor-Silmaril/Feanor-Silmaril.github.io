@@ -16,7 +16,7 @@
 
 .tengwar.annatar.rendered {
     font-family: Tengwar Annatar;
-    font-size: 25px !important;
+    font-size: 22px !important;
     line-height: 240%;
     padding: 1em;
 }
@@ -52,10 +52,11 @@ h6 {
     letter-spacing: 1px;
 }
 
- .tengwar.annatar.rendered>h3{
-    font-size: 45px;
-    top:0;
-    margin: 0 0 55px;
+ .tengwar.annatar.rendered.title{
+    font-family: Tengwar Annatar;
+    font-size: 30px !important;
+    line-height: 240%;
+    padding: 35px 1em;
 }
 
 p {
