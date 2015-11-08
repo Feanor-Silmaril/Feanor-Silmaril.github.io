@@ -85,7 +85,6 @@ a:focus {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
-    color:#000;
 }
 
 .navbar-custom .navbar-brand {
@@ -99,7 +98,6 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #000;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -157,7 +155,6 @@ a:focus {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
-        color:#fff;
     }
 }
 
@@ -214,7 +211,7 @@ a:focus {
     border: 2px solid #000;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #000000;
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -224,8 +221,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #000000;
-    background: rgba(0,0,0,.1);
+    color: #fff;
+    background: rgba(255,255,255,.1);
 }
 
 .btn-circle i.animated {
