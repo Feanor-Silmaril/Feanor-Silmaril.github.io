@@ -184,7 +184,6 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    color:#000000;
     font-weight:600;
 }
 
@@ -208,7 +207,7 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 100%!important;
     font-size: 40px;
     color: #fff;
